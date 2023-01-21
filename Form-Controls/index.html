@@ -8,21 +8,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <header>
     <h1>Product Pick</h1>
   </header>
+
   <main>
-  <form>
-    <!-- write your html here-->
-    <!-- try writing out the requirements first-->
-  </form>
+    <form class="tshirt-form">
+
+      <div class="name-section">
+        <div>
+          <label for="first_name">First name *</label>
+          <input style="text" class="input" id="first_name" name="first_name" required>
+        </div>
+        <div>
+          <label for="last_name">Last name *</label>
+          <input style="text" class="input" id="last_name" name="last_name" required>
+        </div>
+      </div>
+
+      <div class="email-section">
+        <label for="email">Email *</label>
+        <input style="text" class="input" id="email" name="email" required>
+      </div>
+
+      <!-- write your html here-->
+      <!-- name, validate it (what is a valid name?) -->
+      <!-- email, validate it -->
+      <!-- tshirt colour, 3 options, only allowed to choose 1 -->
+      <!-- size, 6 options: xs, s, m, l, xl, xxl -->
+      <!-- delivery date, within 4 weeks -->
+    </form>
 
   </main>
+
   <footer>
-    <!-- change to your name-->
+    ZAHRAA TAYYAR
     <h2>By HOMEWORK SOLUTION</h2>
   </footer>
+  
 </body>
 
 </html>
